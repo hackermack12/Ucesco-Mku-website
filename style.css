@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Open+Sans&family=Roboto&family=Young+Serif&display=swap');
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+#headers{
+   text-decoration: none;
+   color: slateblue;
+   padding: 9px 12px;
+   border-radius: 13px;
+   border: 2px solid rgb(84, 189, 249);
+   margin-left: 40px;
+   transition: 0.2s;
+   color: blueviolet;
+}
+.h4{
+   text-decoration: none;
+   margin-top: 62px;
+}
+.typing-text {
+    white-space: nowrap;
+    width: 100%;
+    animation: typing 9s  steps(60, end);
+    color: #000;
+    background: lightskyblue;
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+a{
+    text-decoration: none;
+}
+#headers:hover{
+    transform: scale(1.1);
+    background: rgb(190, 183, 223);
+}
+#contact{
+    margin-left: 40px;
+    margin-right: 5px;
+}
+#nav1{
+    z-index: 3;
+    position:fixed;
+    margin-bottom: 0px;
+    overflow-block: none;
+    background: #fff;
+    display: block;
+}
+.login{
+    padding: 4px 6px ;
+    border: 3px solid  rgb(84, 189, 249);
+    border-radius: 15px;
+}
+.events{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-auto-rows: auto;
+    gap: 10px 30px;
+    width: 95%;
+    height: 100px;
+   padding: 10px;
+  }
+  #imagesection{
+    width: 100%;
+    height: 700px;
+    border-radius: 5px 6px;
+  }
+  .footer {
+    color: #fff;
+  /*padding: 20px 0;*/
+  }
+  
+  .footer-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #57cdff;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-list li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-list a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-list a:hover {
+    color: #3c4749;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  #padding{
+    margin-right: 10px;
+  }
+  #footer{
+        background: hsl(0, 0%, 0%);
+  }
+  /*#background{
+     background:lightskyblue;
+  }*/
+  #copyright{
+    margin: 20px 30px;
+    text-align: center;
+    font-family:'fantasy',serif;
+    font-weight: 100;
+    color: #000;
+  }
+  ol{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    gap: 20px 190px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .ol_2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    gap: 20px 220px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  ol{
+    line-height: 1.9rem;
+    font-size:large;
+  }
